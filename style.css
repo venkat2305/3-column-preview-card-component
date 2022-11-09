@@ -81,11 +81,12 @@ button {
   font-size: 12px;
   font-family: "Lexend Deca", sans-serif;
   margin: 10px 0;
+  cursor: pointer;
 }
 
-@media screen and (min-width:768px){
-    main{
-        display: flex;
-        flex-direction: row;
-    }
+@media screen and (min-width: 768px) {
+  main {
+    display: flex;
+    flex-direction: row;
+  }
 }
