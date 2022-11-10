@@ -31,21 +31,21 @@ body {
 }
 
 .container {
-  width: 220px;
+  max-width: 280px;
   padding: 25px;
-  height: 290px;
+  /* height: 290px; */
 }
 
-h1 {
+.heading {
   font-family: "Big Shoulders Display", cursive;
   color: var(--Very-light-gray);
   margin: 10px 0;
+  font-size: 1.875rem;
 }
 
 p {
   font-family: "Lexend Deca", sans-serif;
   color: var(--Transparent-white);
-  font-size: 12px;
   margin: 10px 0;
 }
 
@@ -78,7 +78,6 @@ button {
   padding: 10px 20px;
   border: none;
   border-radius: 17px;
-  font-size: 12px;
   font-family: "Lexend Deca", sans-serif;
   margin: 10px 0;
   cursor: pointer;
