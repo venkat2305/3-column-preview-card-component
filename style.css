@@ -32,7 +32,7 @@ body {
 
 .container {
   max-width: 280px;
-  padding: 25px;
+  padding: 25px 25px 45px 25px;
   /* height: 290px; */
 }
 
@@ -41,12 +41,13 @@ body {
   color: var(--Very-light-gray);
   margin: 10px 0;
   font-size: 1.875rem;
+  text-transform: uppercase;
 }
 
 p {
   font-family: "Lexend Deca", sans-serif;
   color: var(--Transparent-white);
-  margin: 10px 0;
+  margin: 10px 0 40px 0;
 }
 
 .sedan {
@@ -73,7 +74,9 @@ p {
   color: var(--Very-dark-cyan);
 }
 
-button {
+
+
+.learn-more {
   background-color: var(--Very-light-gray);
   padding: 10px 20px;
   border: none;
@@ -81,6 +84,7 @@ button {
   font-family: "Lexend Deca", sans-serif;
   margin: 10px 0;
   cursor: pointer;
+  text-decoration: none;
 }
 
 @media screen and (min-width: 768px) {
