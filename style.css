@@ -33,7 +33,7 @@ body {
 
 .container {
   max-width: 280px;
-  padding: 25px 25px 45px 25px;
+  padding: 35px 35px 45px 35px;
   /* height: 290px; */
   display: flex;
   flex-direction: column;
